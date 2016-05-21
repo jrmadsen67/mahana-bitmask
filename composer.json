@@ -1,5 +1,5 @@
 {
-    "name": "jrmadsen67/MahanaBitmap",
+    "name": "jrmadsen67/mahana-bitmap",
     "type": "library",
     "description": "Bitmap masking to manage settings",
     "keywords": ["bitmap masking", "settings"],
