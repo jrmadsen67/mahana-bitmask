@@ -3,9 +3,9 @@ namespace jrmadsen67\MahanaBitmap\Test\TestClasses;
 
 require __DIR__ . '/../../src/MahanaBitfield.php';
 
-// use jrmadsen67\MahanaBitfield\MahanaBitfield as MB;
+use jrmadsen67\MahanaBitfield\MahanaBitfield;
 
-class UserSettings extends \jrmadsen67\MahanaBitfield\MahanaBitfield {
+class UserSettings extends MahanaBitfield {
 
 	public $flags = [
 		'flag1' => 0,
