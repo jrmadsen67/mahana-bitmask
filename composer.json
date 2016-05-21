@@ -1,0 +1,32 @@
+{
+    "name": "jrmadsen67/Mahana-Bitmap",
+    "type": "library",
+    "description": "Bitmap masking to manage settings",
+    "keywords": ["bitmap masking", "settings"],
+    "homepage": "https://github.com/jrmadsen67/Mahana-Bitmap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Madsen",
+            "email": "jrmadsen67@gmail.com",
+            "homepage": "https://github.com/jrmadsen67",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jrmadsen67\\Mahana-Bitmap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jrmadsen67\\Mahana-Bitmap\\Test\\": "tests/"
+        }
+    }
+}
