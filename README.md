@@ -32,15 +32,19 @@ class UserSettings extends MahanaBitfield
 Notice that this DOES NOT work directly with your model; you will have to get/set the `settings` field yourself in a normal manner for your framework or code.
 
 To initialize a class:
+
 `$mbf = new UserSettings;`
 
 To set a particular flag to true/false
+
 `$mbf->flag1 = true;`
 
 To get a particular setting value
+
 `$flag1  = $mbf->flag1;`
 
 To get the bitmask value
+
 `$settings = $mbf->getValue();`
 
 Use setFlags() & getFlags() to work with the whole array at once
