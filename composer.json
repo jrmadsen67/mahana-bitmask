@@ -5,7 +5,6 @@
     "keywords": ["bitmap masking", "settings"],
     "homepage": "https://github.com/jrmadsen67/mahana-bitmap",
     "license": "MIT",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Jeff Madsen",
