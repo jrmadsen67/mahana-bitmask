@@ -5,7 +5,7 @@ Bitmap masking to manage settings. Rather than having a few dozen flags on every
 
 
 ```
-composer require jrmadsen67/MahanaBitfield
+composer require jrmadsen67/mahana-bitmap
 ```
 
 ## Usage
