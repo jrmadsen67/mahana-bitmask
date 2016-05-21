@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Bitmap masking to manage settings",
     "keywords": ["bitmap masking", "settings"],
-    "homepage": "https://github.com/jrmadsen67/Mahana-Bitmap",
+    "homepage": "https://github.com/jrmadsen67/mahana-bitmap",
     "license": "MIT",
     "authors": [
         {
