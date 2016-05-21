@@ -1,5 +1,5 @@
 {
-    "name": "jrmadsen67/Mahana-Bitmap",
+    "name": "jrmadsen67/MahanaBitmap",
     "type": "library",
     "description": "Bitmap masking to manage settings",
     "keywords": ["bitmap masking", "settings"],
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jrmadsen67\\Mahana-Bitmap\\": "src/"
+            "jrmadsen67\\MahanaBitmap\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jrmadsen67\\Mahana-Bitmap\\Test\\": "tests/"
+            "jrmadsen67\\MahanaBitmap\\Test\\": "tests/"
         }
     }
 }
