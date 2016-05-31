@@ -1,11 +1,11 @@
 # MahanaBitfield
-Bitmap masking to manage settings. Rather than having a few dozen flags on every table, bitmap masking can be used to reduce them to a single integer value.
+Bit masking to manage settings. Rather than having a few dozen flags on every table, bit masking can be used to reduce them to a single integer value.
 
 ## Installation
 
 
 ```
-composer require jrmadsen67/mahana-bitmap
+composer require jrmadsen67/mahana-bitmask
 ```
 
 ## Usage

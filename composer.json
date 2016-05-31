@@ -1,9 +1,9 @@
 {
-    "name": "jrmadsen67/mahana-bitmap",
+    "name": "jrmadsen67/mahana-bitmask",
     "type": "library",
-    "description": "Bitmap masking to manage settings",
-    "keywords": ["bitmap masking", "settings"],
-    "homepage": "https://github.com/jrmadsen67/mahana-bitmap",
+    "description": "Bit masking to manage settings",
+    "keywords": ["bit masking", "settings"],
+    "homepage": "https://github.com/jrmadsen67/mahana-bitmask",
     "license": "MIT",
     "authors": [
         {
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jrmadsen67\\MahanaBitmap\\": "src/"
+            "jrmadsen67\\MahanaBitmask\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jrmadsen67\\MahanaBitmap\\Test\\": "tests/"
+            "jrmadsen67\\MahanaBitmask\\Test\\": "tests/"
         }
     }
 }
