@@ -5,7 +5,7 @@ Bit masking to manage settings. Rather than having a few dozen flags on every ta
 
 
 ```
-composer require league/mahana-bitmask
+composer require jrmadsen67/mahana-bitmask
 ```
 
 ## Usage
