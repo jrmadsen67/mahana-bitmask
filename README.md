@@ -5,7 +5,7 @@ Bit masking to manage settings. Rather than having a few dozen flags on every ta
 
 
 ```
-composer require jrmadsen67/mahana-bitmask
+composer require league/mahana-bitmask
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ MahanaBitfield is an abstract class, so you will create a simple inherited class
 This means that if you have a Users table and want to store `settings` in a field, you would make a class like this example:
 
 ```
-use jrmadsen67\MahanaBitfield\MahanaBitfield;
+use league\MahanaBitfield\MahanaBitfield;
 
 class UserSettings extends MahanaBitfield
 {
