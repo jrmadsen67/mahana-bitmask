@@ -1,5 +1,5 @@
 {
-    "name": "jrmadsen67/mahana-bitmask",
+    "name": "league/mahana-bitmask",
     "type": "library",
     "description": "Bit masking to manage settings",
     "keywords": ["bit masking", "settings"],
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jrmadsen67\\MahanaBitmask\\": "src/"
+            "League\\MahanaBitfield\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jrmadsen67\\MahanaBitmask\\Test\\": "tests/"
+            "League\\MahanaBitfield\\Test\\": "tests/"
         }
     }
 }

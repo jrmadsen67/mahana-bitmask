@@ -1,9 +1,9 @@
 <?php
-namespace jrmadsen67\MahanaBitmap\Test\TestClasses;
+namespace League\MahanaBitfield\Test\TestClasses;
 
 require __DIR__ . '/../../src/MahanaBitfield.php';
 
-use jrmadsen67\MahanaBitfield\MahanaBitfield;
+use League\MahanaBitfield\MahanaBitfield;
 
 class UserSettings extends MahanaBitfield {
 

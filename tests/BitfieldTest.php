@@ -1,14 +1,17 @@
 <?php
-namespace jrmadsen67\MahanaBitmap\Test;
+namespace League\MahanaBitfield\Test;
 
-use jrmadsen67\MahanaBitmap\Test\TestClasses\UserSettings;
+use League\MahanaBitfield\Test\TestClasses\UserSettings;
 
 class BitfieldTest extends \PHPUnit_Framework_TestCase {
-	function test_assert_true_is_true() {
+
+	function test_assert_true_is_true()
+    {
 		$this->assertTrue(true);
 	}
 
-	function test_single_value_set_true_is_correct_setting() {
+	function test_single_value_set_true_is_correct_setting()
+    {
 		$userSettings = new UserSettings;
 		$userSettings->flag1 = true;
 
@@ -17,7 +20,8 @@ class BitfieldTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals(1, $setting);
 	}
 
-	function test_all_flags_set_is_correct_value() {
+	function test_all_flags_set_is_correct_value()
+    {
 		$userSettings = new UserSettings;
 
 		$userSettings->flag1 = true;
@@ -29,7 +33,8 @@ class BitfieldTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals(5, $setting);
 	}
 
-	function test_set_flags_works_on_whole_array() {
+	function test_set_flags_works_on_whole_array()
+    {
 		$userSettings = new UserSettings;
 
 		$userSettings->setFlags([
@@ -43,7 +48,8 @@ class BitfieldTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals(2, $setting);
 	}
 
-	function test_set_flags_works_on_partial_array() {
+	function test_set_flags_works_on_partial_array()
+    {
 		$userSettings = new UserSettings;
 
 		$userSettings->setFlags([
@@ -56,7 +62,8 @@ class BitfieldTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals(6, $setting);
 	}
 
-	function test_get_flags_works_on_array() {
+	function test_get_flags_works_on_array()
+    {
 		$userSettings = new UserSettings;
 
 		$userSettings->setFlags([
@@ -75,7 +82,8 @@ class BitfieldTest extends \PHPUnit_Framework_TestCase {
 		$this->assertEquals($expected, $setting_array);
 	}
 
-	function test_set_flags_twice_preserves_array() {
+	function test_set_flags_twice_preserves_array()
+    {
 		$userSettings = new UserSettings;
 
 		$userSettings->setFlags([
