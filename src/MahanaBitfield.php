@@ -1,5 +1,5 @@
 <?php
-namespace League\MahanaBitfield;
+namespace jrmadsen67\MahanaBitfield;
 
 abstract class MahanaBitfield {
 

@@ -1,7 +1,7 @@
 <?php
-namespace League\MahanaBitfield\Test;
+namespace jrmadsen67\MahanaBitfield\Test;
 
-use League\MahanaBitfield\Test\TestClasses\UserSettings;
+use jrmadsen67\MahanaBitfield\Test\TestClasses\UserSettings;
 
 class BitfieldTest extends \PHPUnit_Framework_TestCase {
 

@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\MahanaBitfield\\": "src/"
+            "jrmadsen67\\MahanaBitfield\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\MahanaBitfield\\Test\\": "tests/"
+            "jrmadsen67\\MahanaBitfield\\Test\\": "tests/"
         }
     }
 }

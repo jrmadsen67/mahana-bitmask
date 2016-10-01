@@ -17,7 +17,7 @@ MahanaBitfield is an abstract class, so you will create a simple inherited class
 This means that if you have a Users table and want to store `settings` in a field, you would make a class like this example:
 
 ```
-use League\MahanaBitfield\MahanaBitfield;
+use jrmadsen67\MahanaBitfield\MahanaBitfield;
 
 class UserSettings extends MahanaBitfield
 {
